@@ -1,14 +1,7 @@
-import java.util.Scanner;
-
 public class BMIHesaplama {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
-        System.out.print("Kilonuzu (kg) girin: ");
-        double kilo = input.nextDouble();
-
-        System.out.print("Boyunuzu (metre) girin: ");
-        double boy = input.nextDouble();
+        double kilo = 45;     // kg
+        double boy = 1.65;    // metre
 
         double bmi = kilo / (boy * boy);
 
@@ -24,7 +17,7 @@ public class BMIHesaplama {
         } else {
             System.out.println("Durum: Obez");
         }
-
-        input.close();
     }
 }
+
+
